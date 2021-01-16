@@ -1,0 +1,154 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+}
+
+.bg-danger {
+    background-color: #033163!important;
+}
+.bg-success {
+    background-color: #14304c!important;
+}
+.bg-warning {
+    background-color: #fef46d!important;
+}
+.bg-secondary {
+    background-color: #752f97!important;
+}
+
+.header {
+    height: 40rem;
+    background-image: url(../img/background2.jpg);
+    background-size: cover;
+    background-position: bottom center;
+}
+
+/* Navegación */
+.fixed-top {
+    transition: all .3s ease;
+}
+
+.fixed-top.bg-success {
+    -webkit-box-shadow: 0px 5px 26px 2px rgba(0,0,0,0.52);
+    -moz-box-shadow: 0px 5px 26px 2px rgba(0,0,0,0.52);
+    box-shadow: 0px 5px 26px 2px rgba(0,0,0,0.52);
+}
+
+.fixed-top .nav-link {
+    color: white!important;
+}
+
+.fixed-top .active {
+    background-color: #545b62!important;
+}
+
+.navbar-brand {
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+.navbar-brand #brand {
+    font-weight: 700;
+}
+
+.navbar-brand #nombre-corto {
+    display: none;
+} 
+
+@media (max-width: 700px) {
+    .navbar-brand #nombre-largo {
+        display: none;
+    }
+}
+
+@media (max-width: 700px) {
+    .navbar-brand #nombre-corto {
+        display: inline-block;
+    }
+}
+
+a.navbar-brand.text-light:hover {
+    color: white!important;
+}
+
+.custom-toggler.navbar-toggler {
+    border-color: rgb(245, 239, 243);
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(245, 239, 243, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+
+/* Estilos de Portafolio */
+
+.categoria {
+    padding-bottom: 40px;
+    overflow: hidden;
+    height: 300px;
+}
+.categoria h3::before {
+    content: '';
+    display: block;
+    margin: 10px auto 20px auto;
+    height: 1px;
+    width: 60px;
+    background-color: #00b30c;
+    transition: all .3s ease;
+}
+.categoria:hover h3::before {
+    width: 180px;
+}
+.categoria h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 1.4rem;
+    color: white;
+}
+.categoria p {
+    color: #999;
+    opacity: 0;
+    padding-top: 30px;
+    transition: all .3s ease;
+}
+
+.categorias ul {
+    background-color: rgb(146, 143, 143);
+}
+.categorias ul li a {
+    padding: .5rem 0!important;
+}
+
+.categoria:hover p {
+    opacity: 1;
+    padding-top: 10px;
+}
+
+.categoria a img {
+    border-radius: .25rem;
+}
+
+.tab-content img {
+    height: 50%;
+    width: 50%;
+}
+.nav-pills .nav-link.active {
+    background-color: #212529;
+}
+
+#portfolio, #about, #contact {
+    padding-top: 70px!important;
+}
+
+
+
+/* Encuentra */
+
+.encuentra {
+    background-image: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.encuentra .row {
+    height: 20rem;
+}
