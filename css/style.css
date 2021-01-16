@@ -156,6 +156,6 @@ a.navbar-brand.text-light:hover {
 #link-ver-todos {
     text-decoration: none;
     font-size: 1.2rem;
-    color: white;
+    color: white!important;
     cursor: pointer;
 }
