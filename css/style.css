@@ -152,3 +152,10 @@ a.navbar-brand.text-light:hover {
 .encuentra .row {
     height: 20rem;
 }
+
+#link-ver-todos {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: white;
+    cursor: pointer;
+}
